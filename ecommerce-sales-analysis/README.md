@@ -38,16 +38,11 @@ After standardizing country names, product categories, and channel labels, and f
 - **Top products by revenue**: Eyeshadow Palette ($4,190.38), Shea Butter Lotion ($3,028.77), and Oud Perfume ($2,915.66) were the top three
 - **Data quality**: of 256 orders, 249 were valid, 4 were statistical outliers, and 3 were invalid (zero or negative prices)
 
-**Example cleanup formula used to standardize country names before pivoting:**
+**The quality flag in the source data — used to separate trustworthy rows before aggregating:**
 
-```excel
-=TRIM(PROPER(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(B2,"U.A.E","UAE"),"Kenia","Kenya"),"U.K","UK")))
 ```
-
-**Example quality flag formula:**
-
-```excel
-=IF(OR(Unit_Price_USD<=0, Discount_Rate<0, Discount_Rate>1), "Invalid", IF(Quantity>500, "Outlier", "Valid"))
+quality_flag: "Valid" | "Outlier" | "Invalid"
+Price_flag:   "Valid" | "Invalid"
 ```
 
 ## 💡 What I Learned
