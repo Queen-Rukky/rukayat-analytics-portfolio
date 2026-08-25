@@ -20,8 +20,6 @@ The dataset covers two linked tables: a product master table (product ID, catego
 
 ## 📊 Dashboard Screenshots
 
-Upload `product-inventory-dashboard.png` (the Product_Inventory page) to an `/assets` folder here — this embed will pick it up automatically:
-
 ![Product Inventory Dashboard](./assets/product-inventory-dashboard.png)
 
 ## 🛠️ Tools Used
