@@ -20,9 +20,9 @@ The dataset covers two linked tables: a product master table (product ID, catego
 
 ## 📊 Dashboard Screenshots
 
-*Screenshots to be added: open `INVENTORY - Copy.pbix` in Power BI Desktop and export each page (Executive Analysis, Revenue Trend, Inventory Movement, Product Inventory, KPIs) as PNG to an `/assets` folder here, then reference them below.*
+Upload `product-inventory-dashboard.png` (the Product_Inventory page) to an `/assets` folder here — this embed will pick it up automatically:
 
-`![Executive Dashboard](./assets/executive-analysis.png)`
+![Product Inventory Dashboard](./assets/product-inventory-dashboard.png)
 
 ## 🛠️ Tools Used
 
@@ -86,10 +86,11 @@ The full script also breaks performance down by supplier and product category, t
 - Total inventory investment: 150.78M
 - Total sales revenue: 251.27M
 - Gross profit: 100.49M, a 40% profit margin
-- Home products generate the highest revenue and hold the largest share of inventory
-- Abuja warehouse contributes the highest sales revenue; Lagos underperforms by comparison
+- Overstock status: No | Low-stock status: Normal — both risk flags currently read healthy
+- Average reorder level across products: 59.21
+- Home products generate the highest unit cost and hold the largest share of inventory
+- Abuja warehouse holds the most stock on hand (261K), just ahead of PH (252K) and Lagos (238K)
 - One supplier (Supplier 12) supplies the greatest inventory volume
-- Some products are overstocked; low-stock risk is currently minimal
 
 ## 💡 What I Learned
 
@@ -97,7 +98,7 @@ Joining product and movement data revealed that "inventory health" isn't one num
 
 ## ✅ Conclusion
 
-The business is profitable and operationally stable, a 40% margin and balanced IN/OUT/ADJUSTMENT movement both point to healthy fundamentals. The clearest opportunities are reducing overstock through better demand forecasting, reviewing reorder levels against actual sales trends, and investigating why the Lagos warehouse underperforms Abuja.
+The business is profitable and operationally stable — a 40% margin, healthy overstock/low-stock flags, and stock fairly balanced across all three warehouses all point to sound fundamentals. The clearest opportunities are reviewing reorder levels against actual sales trends and keeping an eye on the Home and Fashion categories, which carry the largest share of tied-up inventory cost.
 
 ## 🎯 Closing Thought
 
