@@ -20,9 +20,9 @@ The dataset connects three angles of the customer relationship: ordering behavio
 
 ## 📊 Dashboard Screenshots
 
-*Screenshots to be added: open `Customers_Churn.pbix` in Power BI Desktop and export each page (Order Trend, Customer Trend, Support Trend, Executive Dashboard, KPIs) as PNG to an `/assets` folder here, then reference them below.*
+Upload `executive-dashboard.png` (the Executive Dashboard page) to an `/assets` folder here — this embed will pick it up automatically:
 
-`![Executive Dashboard](./assets/executive-dashboard.png)`
+![Customer Churn Executive Dashboard](./assets/executive-dashboard.png)
 
 ## 🛠️ Tools Used
 
@@ -31,7 +31,14 @@ The dataset connects three angles of the customer relationship: ordering behavio
 
 ## 🔍 The Analysis
 
-The **Order Trend** page tracks order volume over time and uses a funnel and waterfall chart to show exactly where in the order journey customers drop off. The **Customer Trend** page maps customer distribution geographically and by segment, paired with a gauge showing engagement against target. The **Support Trend** page isolates support ticket volume and resolution performance, so it's possible to see whether churn clusters around customers who had a bad support experience. All three roll up into an **Executive Dashboard** page with the headline KPIs a manager would check first.
+The **Order Trend** page tracks order volume over time and uses a funnel and waterfall chart to show exactly where in the order journey customers drop off. The **Customer Trend** page maps customer distribution geographically and by segment, paired with a gauge showing engagement against target. The **Support Trend** page isolates support ticket volume and resolution performance, so it's possible to see whether churn clusters around customers who had a bad support experience. All three roll up into an **Executive Dashboard** page with the headline KPIs a manager would check first:
+
+- **Retention Rate**: 1.00
+- **Churn Rate**: 0.50 | **Churn Count**: 2K
+- **Total amount**: 9.06M | **Revenue per customer**: 1.81K
+- Amount by quarter dips through Qtr 2 and Qtr 3 before recovering in Qtr 4
+- Churned customers split evenly across the Returning, New, and VIP segments, so churn risk isn't concentrated in one tier
+- Gender split among churned customers is close to even
 
 **Report structure (pages → key visuals):**
 
@@ -50,7 +57,7 @@ Churn dashboards are easy to build shallow, a single "churn rate" number, and ha
 
 ## ✅ Conclusion
 
-Segmenting order trends against support performance surfaces which customer groups are both ordering less and experiencing worse support outcomes, exactly the group most at risk of churning next. That's the actionable insight: a churn dashboard should point a retention team at a specific segment, not just report a rate.
+With churn spread evenly across Returning, New, and VIP tiers, this isn't a single-segment problem, a retention play aimed at just one group would miss half the risk. Segmenting order trends against support performance surfaces which customer groups are both ordering less and experiencing worse support outcomes, exactly the group most at risk of churning next.
 
 ## 🎯 Closing Thought
 
