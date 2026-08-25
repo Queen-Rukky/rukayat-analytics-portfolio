@@ -20,8 +20,6 @@ The raw dataset covered 250+ orders across ten skincare, makeup, haircare, body 
 
 ## 📊 Dashboard Screenshots
 
-Upload `sales-performance-dashboard.png` (the full Sales Performance Dashboard page) to an `/assets` folder here — this embed will pick it up automatically:
-
 ![Ecommerce Sales Performance Dashboard](./assets/sales-performance-dashboard.png)
 
 ## 🛠️ Tools Used
